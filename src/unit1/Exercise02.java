@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class Exercise02 {
 
-	public static void main(String[] args) {
-			//We created a new scanner
-			Scanner reader = new Scanner(System.in);
-			//We declare the variable number
-			double numero;
-					
-			//Displays the message with carriage return
-			System.out.println("Introduzca un número:");
+    public static void main(String[] args) {
+        // Creamos un nuevo Scanner
+        Scanner reader = new Scanner(System.in);
 
-			//The console waits for us to enter a decimal value
-			numero = reader.nextDouble();
-			
-			//We print the value by console
-			System.out.println("Ha escrito:" + numero);
-			 
-			//We close the Scanner
-			reader.close();
-	}
+        // Declaramos la variable numero
+        int numero;
 
+        // Mostramos el mensaje para pedir la edad
+        System.out.println("Introduzca su edad:");
+
+        // Leemos un valor entero desde la consola
+        numero = reader.nextInt();
+
+        // Mostramos la edad que tendrá el próximo año
+        System.out.println("Su edad el próximo año será: " + (numero + 1));
+
+        // Cerramos el Scanner
+        reader.close();
+    }
 }
