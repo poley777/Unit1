@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class Exercise01 {
 
 	public static void main(String[] args) {
-		//Creamos un nuevo escaner
+		//We created a new scanner
 		Scanner reader = new Scanner(System.in);
-		//Declaramos la variable numero
+		//We declare the variable number
 		double numero;
 				
-		//Muestra el mensaje con retorno de carro
+		//Displays the message with carriage return
 		System.out.println("Introduzca un número:");
 
-		//La consola se queda esperando a que introduzcamos un valor decimal
+		//The console waits for us to enter a decimal value
 		numero = reader.nextDouble();
 		
-		//Imprimimos el valor por consola
+		//We print the value by console
 		System.out.println("Ha escrito:" + numero);
-		
-		//Cerramos el Scanner
+		 
+		//We close the Scanner
 		reader.close();
 		
 	}
