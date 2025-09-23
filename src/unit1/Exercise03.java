@@ -5,29 +5,29 @@ import java.util.Scanner;
 public class Exercise03 {
 
     public static void main(String[] args) {
-        // Creamos un nuevo Scanner para leer entrada del usuario
+        // We create a new Scanner to read user input
         Scanner reader = new Scanner(System.in);
 
-        // Variables para almacenar el año actual y el año de nacimiento
+        // Variables to store the current year and the year of birth
         int anioActual;
         int anioNacimiento;
         int edad;
 
-        // Pedimos al usuario el año actual
+        // We ask the user for the current year
         System.out.print("Introduzca el año actual: ");
         anioActual = reader.nextInt();
 
-        // Pedimos al usuario el año de nacimiento
+        // We ask the user for the year of birth
         System.out.print("Introduzca su año de nacimiento: ");
         anioNacimiento = reader.nextInt();
 
-        // Calculamos la edad
+        // We calculate the age
         edad = anioActual - anioNacimiento;
 
-        // Mostramos la edad
+        // We show the age
         System.out.println("Su edad es: " + edad + " años.");
 
-        // Cerramos el Scanner
+        // We close the Scanner
         reader.close();
     }
 }
