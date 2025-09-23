@@ -22,13 +22,13 @@ public class Exercise05 {
         radio = reader.nextDouble();
 
         // We calculate the length and area
-         longitud = 2 * Math.PI * radio;
-         area = Math.PI * Math.pow(radio, 2);
+        longitud = 2 * Math.PI * radio;
+        area = Math.PI * Math.pow(radio, 2);
 
         // We show the results
         System.out.println("La longitud de la circunferencia es: " + longitud);
         System.out.println("El área de la circunferencia es: " + area);
-
+    
         // We close the Scanner
         reader.close();
     }
