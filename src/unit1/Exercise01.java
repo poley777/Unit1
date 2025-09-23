@@ -2,6 +2,8 @@ package unit1;
 
 import java.util.Scanner;
 
+import java.util.Scanner;
+
 public class Exercise01 {
 
 	public static void main(String[] args) {
