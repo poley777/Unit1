@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class Exercise02 {
 
     public static void main(String[] args) {
-        // Creamos un nuevo Scanner
+        // We created a new Scanner
         Scanner reader = new Scanner(System.in);
 
-        // Declaramos la variable numero
+        // We declare the variable number
         int numero;
 
-        // Mostramos el mensaje para pedir la edad
+        // We show the message to ask for the age.
         System.out.println("Introduzca su edad:");
 
-        // Leemos un valor entero desde la consola
+        // We read an integer value from the console
         numero = reader.nextInt();
 
-        // Mostramos la edad que tendrá el próximo año
+        // We show how old you will be next year
         System.out.println("Su edad el próximo año será: " + (numero + 1));
 
-        // Cerramos el Scanner
+        // We close the Scanner
         reader.close();
     }
 }
