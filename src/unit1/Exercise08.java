@@ -12,7 +12,7 @@ public class Exercise08 {
 		//We declare variable for the name
 		String nombre;
 							
-		//We declare variable for the address
+		//We declare variable for the age
 		int edad;
 			
 		// We request the name
