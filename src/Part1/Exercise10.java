@@ -1,4 +1,4 @@
-package unit1;
+package Part1;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Exercise10 {
 		espar = numero%2 == 0;
 		
 		//Imprimimos si el número es par o impar
-		System.out.println("¿El número es par?" + espar);
+		System.out.println("¿El número es par?" + (espar ? "Sí" : "No"));
 	}
 	
 

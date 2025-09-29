@@ -1,8 +1,7 @@
-package unit1;
+package Part1;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
 
 public class Exercise01 {
 
